@@ -136,3 +136,21 @@ margin: 0 auto;
   justify-content: center;
 }
 
+.totals-table {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.totals-table td {
+  padding: 10px;
+}
+
+.totals-table td:last-child {
+  text-align: right;
+}
+
+.final-totals {
+  font-weight: bold;
+}
+
