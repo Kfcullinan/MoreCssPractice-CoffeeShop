@@ -115,3 +115,19 @@ margin: 0 auto;
   
 }
 
+.user-input-label {
+  color: #885a2d;
+  background-color: #eee1d5;
+  font-size: 11px;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0px;
+}
+
+.short-input {
+  max-width: 200px;
+}
+
+
+
