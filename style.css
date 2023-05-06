@@ -118,6 +118,7 @@ grid-template-areas:
 .input-group{
   position: relative;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .user-input{
