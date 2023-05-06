@@ -63,6 +63,10 @@ grid-template-areas:
   grid-area: payment;
 }
 
+.total {
+  grid-area: total;
+}
+
 .items {
   list-style: none;
   padding: 0;
@@ -75,7 +79,7 @@ grid-template-areas:
   padding: 10px 0;
   grid-template-columns: 1fr 8fr 1fr;
   grid-template-areas: 
-  "quantity title price"
+  "quantity title   price"
   "quantity options price";
   row-gap: 8px;
 }
