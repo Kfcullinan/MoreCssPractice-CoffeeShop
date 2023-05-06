@@ -20,9 +20,8 @@ grid-template-areas:
   "order payment"
   "total total";
   grid-template-columns: 1fr 1fr;
-
-
 }
+
 
  .main-nav {
   background-color: #43281c;
@@ -54,6 +53,14 @@ grid-template-areas:
   color: #885a2d;
   font-weight: normal;
   font-size: 16px;
+}
+
+.order {
+  grid-area: order;
+}
+
+.payment {
+  grid-area: payment;
 }
 
 .items {
